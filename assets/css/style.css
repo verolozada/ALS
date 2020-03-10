@@ -33,6 +33,9 @@ body {
         width: 100%;
         height: 100%;
     }
+    .logo{
+        width: 200px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -71,4 +74,8 @@ body {
     position: absolute;
     bottom: 150px;
     right: 100px;
+}
+
+.subtitle2{
+    font-family: var(--font-subtitle);
 }
