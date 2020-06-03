@@ -36,11 +36,14 @@ body {
     .logo {
         width: 200px;
     }
-    .image-home2{
+    .image-home2 {
         width: 90%
     }
     .cover-item {
         width: 60%;
+    }
+    .image-home1-1{
+        width: 100%;
     }
 }
 
@@ -95,6 +98,7 @@ body {
     overflow-x: scroll;
     overflow-y: hidden;
 }
+
 .cover-item {
     position: relative;
     display: inline-block;
@@ -105,10 +109,17 @@ body {
     background-size: cover;
 }
 
-.espaciado{
+.espaciado {
     margin-bottom: 7rem !important;
 }
 
-a{
+a {
     color: var(--color);
+}
+
+.footer {
+    height: auto;
+    margin-top: -50px;
+    background-color: var(--color);
+    color: white;   
 }
