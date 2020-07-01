@@ -132,3 +132,56 @@ a {
 .espacio-lineas {
     line-height: 2rem;
 }
+
+.containerimg {
+    position: relative;
+}
+
+.captionimg {
+    position: absolute;
+    bottom: 0px;
+    font-size: 18px;
+    background-color: black;
+    width: 80%;
+    left: 16px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.containerHover {
+    position: relative;
+    /* width: 50%; */
+}
+
+.image {
+    display: block;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.containerHover:hover .overlay {
+    opacity: 1;
+}
+
+.textHover {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
