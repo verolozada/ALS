@@ -8,8 +8,13 @@
 
 body {
     font-family: var(--font);
+    display: flex;
+    flex-direction: column;
 }
 
+main{
+    min-height: 70vh;
+}
 /* Navbar */
 
 .subtitle {
@@ -45,6 +50,9 @@ body {
     }
     .image-home1-1 {
         width: 100%;
+    }
+    .contactos{
+        font-size: 5vw;
     }
 }
 
@@ -184,4 +192,11 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+}
+
+footer {
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
 }
