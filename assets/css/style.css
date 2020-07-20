@@ -12,9 +12,10 @@ body {
     flex-direction: column;
 }
 
-main{
+main {
     min-height: 70vh;
 }
+
 /* Navbar */
 
 .subtitle {
@@ -51,7 +52,7 @@ main{
     .image-home1-1 {
         width: 100%;
     }
-    .contactos{
+    .contactos {
         font-size: 5vw;
     }
 }
@@ -199,4 +200,19 @@ footer {
     position: relative;
     height: 200px;
     margin-top: -200px;
+}
+
+.accordion .card{
+    border: none !important;
+}
+.accordion .card-header {
+    background-color: white;
+}
+
+.btn.focus, .btn:focus{
+    box-shadow: none !important;
+}
+
+hr{
+    color: var(--gray);
 }
