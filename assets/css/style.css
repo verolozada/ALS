@@ -126,8 +126,8 @@ main {
 
 .bottom-right {
     position: absolute;
-    bottom: 150px;
-    right: 100px;
+    bottom: 4vh;
+    right: 4vw;
 }
 
 .subtitle2 {
@@ -263,4 +263,12 @@ hr {
 
 .espaciado-text{
     margin-top: 11rem;
+}
+
+.navbar-toggler{
+    border: 0px solid !important;
+}
+
+button:focus {
+    outline: 0px solid !important;
 }
